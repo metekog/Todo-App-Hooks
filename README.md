@@ -1,11 +1,11 @@
-Todo App
-Publish here: https://todo-app-hooks-pi.vercel.app/
+-Todo App
+-Publish here: https://todo-app-hooks-pi.vercel.app/
 
-git clone https://github.com/metekog/Todo-App-Hooks.git
-cd Todo-App-Hooks
-npm i
-npm start
+-git clone https://github.com/metekog/Todo-App-Hooks.git
+-cd Todo-App-Hooks
+-npm i
+-npm start
 
-# or
+#or
 
-yarn run
+-yarn run
