@@ -49,17 +49,29 @@ export const Todo = () => {
   return (
     <div className="site-container">
       <h1>TO-DO LIST</h1>
+      <div style={{ color: "white" }}>
+        {todos.length === 0 ? (
+          <h2 style={{ color: "#23d41d" }}>All todos are done! Take a rest!</h2>
+        ) : (
+          <h2 style={{ color: "#e74242" }}>
+            {todos.length > 1
+              ? `There are ${todos.length} todos.`
+              : `There is ${todos.length} todo.`}
+          </h2>
+        )}
+      </div>
       <form className="todo-form" onSubmit={handleSubmit}>
         <input
           className="todo-input"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          placeholder="To Do"
+          placeholder="Enter New Todo"
           required
         />
         <button className="todo-button">ADD</button>
       </form>
+      <div></div>
       {todos.map((todo) => (
         <div key={todo.id}>
           <div
