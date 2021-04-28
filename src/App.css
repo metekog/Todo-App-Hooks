@@ -1,39 +1,56 @@
-.App {
+.site-container {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+  width: 50%;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background: #1c3068;
+  border-radius: 10px;
+  min-height: 90vh;
+  border-radius: 10px;
+}
+
+.todo-form {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border: 3px solid #707070;
+  border-radius: 4px;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  font-size: 25px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.todo-list {
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+h1 {
+  color: #fff;
 }
