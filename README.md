@@ -1,8 +1,10 @@
 ## Getting Started
 
+[LIVE HERE](https://todo-app-hooks-pi.vercel.app/) 
+
+
 ```bash
 Todo App
-[LIVE HERE](https://todo-app-hooks-pi.vercel.app/) 
 git clone https://github.com/metekog/Todo-App-Hooks.git
 cd todoapp_youtube/
 npm i
